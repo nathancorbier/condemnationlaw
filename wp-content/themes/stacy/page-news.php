@@ -32,8 +32,9 @@
                             ?>
                             
                                 <?php
-                        wp_reset_query();
-                        $page = (get_query_var('page')) ? get_query_var('page') : 1;
+// 04DEC2014 - NAC@CAAC - Removed wp_reset_query because we never know the page!                        
+//wp_reset_query();
+                        $page = (get_query_var('paged')) ? get_query_var('paged') : 1;
         
                         $temp = $wp_query;
                         $wp_query= null;
@@ -62,8 +63,8 @@
                                                                               
                                       </article>
                                     <?php endwhile;  
-									if(function_exists('wp_paginate')) {wp_paginate();} 
-									wp_reset_query(); 
+                  if(function_exists('wp_paginate')) {wp_paginate();} 
+                  wp_reset_query(); 
                                       $display=get_post_meta($post->ID,'_stacy_wnews',true);
                             if($display){
                              ?>
@@ -82,7 +83,7 @@
                             <?php } ?>
                                    <?php else: ?>
                                        <div class="no-results">
-                                        <p><strong>There has been an error.</strong></p>
+                                        <p><strong>There has been an error showing page <?php echo $page;?>. Perhaps you've went too far back?</strong></p>
                                         <p>We apologize for any inconvenience, please <a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('description'); ?>">return to the home page</a> or use the search form below.</p>
                                         <?php get_search_form(); /* outputs the default Wordpress search form */ ?>
                                       </div><!--noResults-->
