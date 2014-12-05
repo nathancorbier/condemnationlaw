@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(".nav li.dropdown").hover(function(){e(this).addClass("open")},function(){e(this).removeClass("open")});e(".clikcon").click(function(t){e(this).parent().find(".toggler").slideToggle("slow");t.preventDefault()});var t=0;e(".resource-con").each(function(){if(e(this).height()>t)t=e(this).height()});e(".resource-con").height(t)})

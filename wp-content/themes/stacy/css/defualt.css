@@ -1,0 +1,150 @@
+/*************************************************************Defualt Css****************************************************/
+@import"bootstrap.min.css";
+@import"fonts.css";
+@import"layout.css";
+@import"style.css";
+@import"tabdrop.css";
+::selection
+{color:#ebebeb;background:#1190c5;}
+::-moz-selection{color:#ebebeb;background:#252525;}
+body{
+	padding:0;
+	margin:0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	-webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+	font-style:normal;
+	font-weight:normal;
+	line-height:normal;
+	color:#252525;
+	background:#f7f6f1;
+}
+.wrapper{width:100%; margin:0 auto;}
+label:focus, select:focus, option:focus, textarea:focus, a, h1, h2, h3, h4, h5, h6{outline:0px !important;}
+td, div, h1, h2, h3, h4, h5, h6, p, input, form{margin:0;padding:0;}
+img{padding:0;margin:0;border:none;}
+ul{margin:0;padding:0;}
+.spacer{clear:both;line-height:0;font-size:0;}
+a{text-decoration: none;}
+a:hover {text-decoration: none;}
+.padding{padding:20px 0 20px 0;}
+.paddingsmall{padding:10px 0 10px 0;}
+.paddingverysmall{padding:5px 0 5px 0;}
+.paddinglarge{padding:25px 0 25px 0;}
+.paddingverylarge{padding:30px 0 30px 0;}
+.paddinglarger{padding:30px 0 30px 0;}
+.paddingtopsmall{padding-top:10px;}
+.paddingtopverysmall{padding-top:5px;}
+.paddingtop{padding-top:20px;}
+.paddingtoplarge{padding-top:25px;}
+.paddingtopverylarge{padding-top:30px;}
+.paddingtoplarger{padding-top:35px;}
+.paddingbottomverysmall{padding-bottom:5px;}
+.paddingbottomsmall{padding-bottom:10px;}
+.paddingbottom{padding-bottom:20px;}
+.paddingbottomlarge{padding-bottom:25px;}
+.paddingbottomverylarge{padding-bottom:30px;}
+.paddingbottomlarger{padding-bottom:35px;}
+.margin{margin:20px 0 20px 0;}
+.marginsmall{margin:10px 0 10px 0;}
+.marginverysmall{margin:5px 0 5px 0;}
+.marginlarge{margin:25px 0 25px 0;}
+.marginverylarge{margin:30px 0 30px 0;}
+.marginlarger{margin:35px 0 35px 0;}
+.margintopsmall{margin-top:10px;}
+.margintopverysmall{margin-top:5px;}
+.margintop{margin-top:20px;}
+.margintoplarge{margin-top:25px !important;}
+.margintopverylarge{margin-top:30px;}
+.margintoplarger{margin-top:35px;}
+.marginbottomverysmall{margin-bottom:5px;}
+.marginbottomsmall{margin-bottom:10px;}
+.marginbottom{margin-bottom:20px;}
+.marginbottomlarge{margin-bottom:25px;}
+.marginbottomverylarge{margin-bottom:30px;}
+.marginbottomlarger{margin-bottom:35px;}
+.min-height{min-height:1px !important;}
+code{ background:none !important; border:none;}
+.left-margin-none{
+	margin-left:0 !important;
+}
+.marginbutton-none{
+	margin-bottom:0 !important;
+}
+.padding-left{
+	padding-left:35px;
+}
+.padding-left-small{
+	padding-left:10px;
+}
+.padding-left-medium{
+	padding-left:20px;
+}
+.padding-left-large{
+	padding-left:40px;
+}
+.padding-right{
+	padding-right:20px;
+}
+
+
+
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.entry-content img,
+.comment-content img,
+.widget img,
+img.header-image,
+.author-avatar img,
+img.wp-post-image {
+    /* Add fancy borders to all WordPress-added images but not things like badges and icons and the like */
+    border-radius: 3px;
+   
+}
+img.alignleft {
+    margin: 12px 24px 12px 0;
+    margin: 0 0.714286rem 0 0;
+}
+img.alignright {
+    margin: 12px 0 12px 24px;
+    margin: 0.857142857rem 0 0.857142857rem 1.714285714rem;
+}
+img.aligncenter {
+    margin-top: 12px;
+    margin-top: 0.857142857rem;
+    margin-bottom: 12px;
+    margin-bottom: 0.857142857rem;
+}
+.mrd {
+padding-right: 0 !important;
+}
+.mld {
+padding-left: 0 !important;
+}
+
+
+/* ******************* Scroll Bar Open ************************/
+::-webkit-scrollbar{
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+/* ******************* Scroll Bar Close *************************/

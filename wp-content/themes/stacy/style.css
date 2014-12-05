@@ -1,0 +1,193 @@
+@charset utf-8;
+/*--
+    Theme Name: Stacy
+    Theme URI: http://rsstechno.com/
+    Description: A theme from Rsstechno 
+    Version: 1
+    Author: rsstechno.com 
+    Author URL: http://www.rsstechno.com/ 
+--*/
+html, html a {
+	-webkit-font-smoothing: antialiased !important;
+}
+.category.recent-articles h4 {
+font-family:sans-serif !important;
+}
+#s2email {
+ padding:5px;
+ width:200px;
+ border:none;
+}
+#eminenttab, #tabs {
+		padding-left:0;
+	}
+.body-low-left ul {padding-left:18px;}
+.accordian_menu_content {
+		padding-left:30px;
+		}
+	.accordian_menu_head {
+		background:url(../stacy/img/arrow-right.png) no-repeat;
+		padding-left:30px;
+		margin:10px 0;
+		height:auto;
+		min-height:22px;
+		cursor:pointer;
+		}
+	.accordian_menu_head.over, .accordian_menu_head.on {
+		background:url(../stacy/img/arrow-down.png) no-repeat;
+		}
+#eminenttab p:first-child {
+    display: none;
+}
+
+#tabs .tabs a, .nav-tabs > li > a, .nav-tabs li.active a{color:#042b5b}
+.navbar{margin:0 !important}
+.rev_slider_wrapper{margin-bottom:3px !important}
+ul{margin-bottom:0 !important}
+.img-responsive {
+display: none;
+height: auto;
+max-width: 100%; margin: 0 auto !important
+}
+
+@media  (max-width:1600px){
+#navi li a {
+
+    padding: 15px 37px;
+}
+}
+@media (max-width:1200px){
+#navi li a {
+
+    padding:15px 27px !important;
+}
+
+#meteor-slideshow{margin:0 auto}
+}
+@media  (max-width:1155px){
+#navi li a {
+
+    padding:10px 18px !important;
+}
+.slides ul li{height:400px !important}
+
+.responsive-slider.flexslider{height:400px !important}
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    margin: 0 auto !important;}
+
+
+}
+@media (max-width:900px) {
+		#navi {
+				margin:0 auto !important; 
+			}
+	}
+.container {
+		max-width:1170px !important;
+	}
+.contact-bg input[type="text"], .contact-bg input[type="tel"], .contact-bg input[type="email"], .consulation input[type="text"], .consulation input[type="tel"], .consulation input[type="email"], .contactform input[type="text"], .contactform input[type="email"], .contactform input[type="url"],.contact-bg textarea, .consulation textarea, .contactform textarea{
+	width:100%;
+}
+.navbar-nav{
+	float:none !important;
+	margin:0px auto !important;
+	width:1095px;
+	}
+@media only screen and (max-width:1200px){
+	.navbar-nav{
+		width:885px  !important;
+	}	
+}
+@media only screen and (max-width:1155px){
+	.navbar-nav{
+		width: 742px !important;
+	}
+}
+@media only screen and (max-width:1099px){
+	.navbar-nav{
+		width: 885px !important;
+	}
+}
+@media only screen and (max-width:989px){
+	.navbar-nav{
+		width: 742px !important;
+	}
+}
+@media only screen and (max-width:901px){
+	.navbar-nav{
+		width: 742px;
+		margin:auto !important;
+	}
+}
+@media only screen and (max-width:825px){
+	.navbar-nav,  #navi{
+		margin:0px 0px 0px -25px !important;
+		width: 742px;
+	}
+}
+
+@media only screen and (max-width:800px){
+	.navbar-nav,  #navi{
+		margin:0px 0px 0px -30px !important;
+		width: 742px;
+	}
+}
+@media only screen and (max-width:767px){	
+	#navi{
+		width:auto !important;
+	}	
+}
+.table-responsive{border:none !important;}
+.table-responsive > .table{
+	background:none !important;;
+}
+.table thead>tr>th, .table tbody>tr>th, .table tfoot>tr>th, .table thead>tr>td, .table tbody>tr>td, .table tfoot>tr>td
+{
+border-top: 0px !important;
+}
+.resource-con{
+	min-height: 120px !important;
+	height: auto !important;
+}
+@media (max-width:767px){
+	.resource-con{
+		min-height: initial !important;
+	}
+}
+
+.resource-con ul li {
+	padding-bottom: 0px;
+}
+.resource-con p{
+	margin-bottom: 0px;
+}
+.logo {
+	margin-top: 10px !important;
+}
+@media (min-width:768px){
+	.logo img{
+		min-width: 300px;
+		}
+}
+@media (min-width:990px) and (max-width:1050px) {
+	.resource-con {
+		min-height: 150px !important;
+		}
+}
+@media (min-width:768px) and (max-width:932px) {
+	.resource-con {
+		min-height: 150px !important;
+		padding: 20px 15px 30px !important;
+		}
+}
+.mn-projects {
+	padding:30px 15px 15px !important;;
+}
+.mn-projects ul {padding:0px;}
+#s2email {margin-bottom:10px;
+}
+input[type="submit"] {padding:5px; display:inline-block; margin-bottom:10px;}
+.mld p {margin-top:15px;}
+.tab-content {margin-bottom:20px;}

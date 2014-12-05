@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <link rel="stylesheet" href="css/videoPlayerMain.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+  <script src="js/froogaloop.js" type="text/javascript"></script>
+  <script src="js/IScroll4Custom.js" type="text/javascript"></script>
+  <script src='js/THREEx.FullScreen.js'></script>
+  <script src="js/videoPlayer.js" type="text/javascript"></script>
+  <script src="js/Playlist.js" type="text/javascript"></script>
+
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function($)
+    {
+        videoPlayer = $("#video").Video({
+            skinPlayer:"Silver",//Default, Classic, Minimal, Transparent, Silver
+            skinPlaylist:"Silver",
+            autoplay:false,
+            autohideControls:4,
+            videoPlayerWidth:746,
+            videoPlayerHeight:420,
+            posterImg:"images/preview_images/2.jpg",
+            playlist:true,
+            onFinish:"Play next video", //"Play next video","Restart video", "Stop video",
+			vimeoColor:"ff0000", //hexadecimal value,
+			nowPlayingText:"Yes", //"Yes","No"
+            fullscreen:"Fullscreen native", //"Fullscreen native","Fullscreen browser"
+            shareShow:"Yes",
+            facebookLink:"http://codecanyon.net/",
+            twitterLink:"http://codecanyon.net/",
+            logoShow:"Yes",
+            logoClickable:"Yes",
+            logoPath:"images/logo/logo.png",
+            logoGoToLink:"http://codecanyon.net/",
+            logoPosition:"bottom-right",
+            embedShow:"Yes",
+            embedCodeSrc:"www.yourwebsite.com/player/index.html",
+            embedCodeW:"746",
+            embedCodeH:"420",
+            videos:[
+                {
+                    id:0,
+                    title:"Oceans",
+                    videoType:"vimeo", //"HTML5", "youtube", "vimeo"
+                    youtubeID:"",
+                    vimeoID:"94884894",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:1,
+                    title:"Sintel trailer",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://media.html5media.info/video.mp4",
+                    webm:"http://media.html5media.info/video.webm",
+//                    ogv:"http://media.html5media.info/video.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic2.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:2,
+                    title:"Oceans",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:3,
+                    title:"Sintel trailer",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://media.html5media.info/video.mp4",
+                    webm:"http://media.html5media.info/video.webm",
+//                    ogv:"http://media.html5media.info/video.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic2.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:4,
+                    title:"Oceans",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:5,
+                    title:"Sintel trailer",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://media.html5media.info/video.mp4",
+                    webm:"http://media.html5media.info/video.webm",
+//                    ogv:"http://media.html5media.info/video.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic2.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:6,
+                    title:"Oceans",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:7,
+                    title:"Sintel trailer",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://media.html5media.info/video.mp4",
+                    webm:"http://media.html5media.info/video.webm",
+//                    ogv:"http://media.html5media.info/video.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic2.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:8,
+                    title:"Oceans",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:9,
+                    title:"Sintel trailer",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://media.html5media.info/video.mp4",
+                    webm:"http://media.html5media.info/video.webm",
+//                    ogv:"http://media.html5media.info/video.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic2.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:10,
+                    title:"Oceans",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:11,
+                    title:"Sintel trailer",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://media.html5media.info/video.mp4",
+                    webm:"http://media.html5media.info/video.webm",
+//                    ogv:"http://media.html5media.info/video.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic2.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:12,
+                    title:"Oceans",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:13,
+                    title:"Sintel trailer",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://media.html5media.info/video.mp4",
+                    webm:"http://media.html5media.info/video.webm",
+//                    ogv:"http://media.html5media.info/video.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic2.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:14,
+                    title:"Oceans",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:15,
+                    title:"Sintel trailer",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://media.html5media.info/video.mp4",
+                    webm:"http://media.html5media.info/video.webm",
+//                    ogv:"http://media.html5media.info/video.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic2.jpg",
+                    info:"Video info goes here"
+                },
+                {
+                    id:16,
+                    title:"Oceans",
+                    videoType:"HTML5",
+                    youtubeID:"",
+					vimeoID:"",
+                    mp4:"http://video-js.zencoder.com/oceans-clip.mp4",
+                    webm:"http://video-js.zencoder.com/oceans-clip.webm",
+//                    ogv:"http://video-js.zencoder.com/oceans-clip.ogv",
+                    description:"Video description goes here.",
+                    thumbImg:"images/thumbnail_images/pic1.jpg",
+                    info:"Video info goes here"
+                }
+            ]
+        });
+    });
+
+  </script>
+</head>
+
+<body>
+  <div id="video"></div>
+</body>
+
+</html>

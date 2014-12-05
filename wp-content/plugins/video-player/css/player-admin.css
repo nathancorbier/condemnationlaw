@@ -1,0 +1,76 @@
+#videoplayer-admin .actions-holder {
+    padding: 10px;
+}
+#videoplayer-admin .submit {
+    clear: both;
+	text-align: left;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+#videoplayer-admin .float-left {
+    float:left;
+}
+#videoplayer-admin .float-right {
+    float:right;
+}
+#videoplayer-admin .back-to-list-link {
+    text-decoration: none;
+    margin-top: 11px;
+    display: block;
+    width: 180px;
+}
+
+#videoplayer-admin #add-new-video-button {
+    margin-bottom:10px;
+    margin-top:10px;
+}
+#videoplayer-admin #video-section-count {
+    color:#2ea2cc;
+}
+#videoplayer-admin #sortable-title {
+    color:#2ea2cc;
+}
+#videoplayer-admin .deletediv {
+	margin-left:30px
+}
+#videoplayer-admin .button80 {
+    min-width: 80px;
+    text-align: center;
+}
+
+#videoplayer-admin .video{
+	margin-bottom:20px;
+}
+#videoplayer-admin .sep {
+	border: 0;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #FFF;
+	margin: 10px 0 15px 0;
+	padding: 0;
+	height: 0;
+}
+
+#videoplayer-admin .widget-top, .postbox {
+	float:left;
+	width:48%;
+	background: #F6F6F6;
+	margin: 10px 10px 10px 10px;
+}
+#videoplayer-admin a.button-primary {
+    color:#FFF !important;
+}
+#videoplayer-admin .field-row {
+    clear: both;
+    margin-bottom: 10px;
+    height: 20px;
+    position: relative;
+}
+#videoplayer-admin .hidden {
+    display:none !important;
+}
+
+#videoplayer-admin .videoplayers-table tr {
+    height:45px;
+}

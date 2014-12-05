@@ -1,0 +1,9 @@
+#navi li {
+    background: #eeeeee !important;
+}
+.recent-articles ul li a {
+    vertical-align: top !important;
+}
+button.go{
+    background-color: #761b1e !important;
+}

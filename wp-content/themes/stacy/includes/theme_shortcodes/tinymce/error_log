@@ -1,0 +1,22 @@
+[10-Apr-2013 07:49:51 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 07:49:51 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[10-Apr-2013 07:50:54 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 07:50:54 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[10-Apr-2013 07:51:37 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 07:51:37 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[10-Apr-2013 08:00:18 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 08:00:18 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[10-Apr-2013 08:00:56 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 08:00:56 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[10-Apr-2013 08:04:53 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 08:04:53 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[10-Apr-2013 08:10:30 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 08:10:30 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[10-Apr-2013 08:23:08 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 08:23:08 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[10-Apr-2013 08:25:37 UTC] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[10-Apr-2013 08:25:37 UTC] PHP Warning:  Module 'ffmpeg' already loaded in Unknown on line 0
+[26-Sep-2013 13:47:03 UTC] PHP Warning:  require_once(boxes/metabox-team.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/powertob/public_html/vista-solar/wp-content/themes/vista2/metaboxes/metabox-functions.php on line 9
+[26-Sep-2013 13:47:03 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'boxes/metabox-team.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/powertob/public_html/vista-solar/wp-content/themes/vista2/metaboxes/metabox-functions.php on line 9
+[27-Sep-2013 09:52:27 UTC] PHP Notice:  add_custom_background is <strong>deprecated</strong> since version 3.4! Use add_theme_support( 'custom-background', $args ) instead. in /home/powertob/public_html/vista-solar/wp-includes/functions.php on line 2900
+[27-Sep-2013 12:33:37 UTC] PHP Parse error:  syntax error, unexpected $end in /home/powertob/public_html/vista-solar/wp-content/themes/vista2/includes/theme_shortcodes/shortcodes.php on line 95

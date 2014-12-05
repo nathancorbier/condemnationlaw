@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+/******************************* max-width: 239 open ***********************************/ 
+@media only screen and (max-width: 239px) {
+
+}
+/******************************* max-width: 239 Close ***********************************/ 
+
+/******************************* 240 to 319 open***********************************/ 
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+.resource-center {
+	padding:0 !important;
+}
+}
+/******************************* 240 to 319 Close***********************************/ 
+
+/******************************* 320 to 479 open***********************************/ 
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+.resource-center {
+	padding:0 !important;
+}
+.attom h3{
+    text-align: center;
+}
+.attom h2{
+    text-align: center;
+}
+.attom .img-responsive{
+    text-align: center;
+    margin: 0 auto;
+}
+.tab-inner {
+	padding: 15px 15px;
+	margin-right: 7px;
+}
+}
+/******************************* 320 to 479 Close***********************************/ 
+
+/******************************* 480 to 567 open***********************************/ 
+@media only screen and (min-width: 480px) and (max-width: 567px) {
+  .attom h3{
+    text-align: center;
+}
+.attom h2{
+    text-align: center;
+}
+.attom .img-responsive{
+    text-align: center;
+    margin: 0 auto;
+}
+}
+/******************************* 480 to 567 Close***********************************/ 
+
+/******************************* 568 to 684 open***********************************/ 
+@media only screen and (min-width: 568px) and (max-width: 684px) {
+	
+.header-down ul li a {
+	padding: 15px 13px !important;
+}
+}
+/******************************* 568 to 684 Close***********************************/ 
+
+/******************************* 685 to 767 open***********************************/ 
+@media only screen and (min-width: 685px) and (max-width: 767px) {
+.header-down ul li a {
+	padding: 15px 13px !important;
+}
+}
+/******************************* 685 to 767 Close***********************************/ 
+
+/******************************* 768 to 959 open***********************************/ 
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+.header-down ul li a {
+	padding: 15px 13px !important;
+}
+.tab-in li a {
+	padding: 15px 8px !important;
+	font-size: 12px !important;
+}
+.home {
+padding: 15px 34px !important;
+}
+.resource-center {
+	padding:0 !important;
+}
+}
+/******************************* 768 to 959 Close***********************************/ 
+
+/******************************* 960 to 1099 open***********************************/ 
+@media only screen and (min-width: 990px) and (max-width: 1099px) {
+#navi li a {
+	padding: 15px 27px !important;
+}
+.tab-in li a {
+padding: 15px 24px !important;
+}
+/*.home {
+padding: 15px 34px !important;
+} */
+
+}
+/******************************* 960 to 1099 Close***********************************/ 
+
+/******************************* 1100 to 1199 open***********************************/ 
+@media only screen and (min-width: 1100px) and (max-width: 1199px) {
+
+}
+/******************************* 960 to 1199 Close***********************************/ 
+@media screen and (max-width:767px) {
+.logo{
+	width: 100%;
+	margin: 0 auto !important;
+	text-align: center;
+}
+.free {
+	text-align:center !important;
+	width: 100%;
+	margin: 0 auto;
+	background: url("../img/border-1.png") no-repeat scroll center top rgba(0, 0, 0, 0) !important;
+	margin-top:25px;
+}
+.free h2{
+	padding-right:0 !important;
+}
+.free h3{
+	padding-right:0 !important;
+}
+.free ul{
+	float:none !important;
+	margin:o auto !important;
+	text-align:center !important;
+}
+.no{
+	text-align:center !important;
+	margin-right:15px !important;
+}
+.no li{
+	float:none !important;
+	display:inline-block;
+	text-align:center;
+}
+.footer-left{
+	margin-bottom:15px;
+}
+.tab-in li a {
+	padding: 15px 10px !important;
+	font-size: 12px !important;
+}
+.tab-in li{
+	width:100%;
+}
+.navbar-brand{display:inline-block !important;}
+.country{
+	overflow-x:auto;
+	overflow-y:hidden;	
+	margin-bottom:20px;
+}
+.tab-inner {
+	padding: 15px 15px !important;
+	margin-right:0 !important;
+}
+.atto-profile img{
+	margin-bottom:10px;
+}
+}
+
+@media screen and (max-width:1190px) {
+/*#navi li a {
+	padding: 15px 28px !important;
+}*/

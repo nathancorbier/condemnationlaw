@@ -1,0 +1,123 @@
+#vp_playlist{
+	position:absolute;
+	background: #212121;
+	width:75px;
+	top:0px;
+	overflow:hidden;
+
+}
+#vp_playlistContent{
+	position:absolute;
+	background: #191919;
+	top:0px;
+	left:0px;
+	width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+.vp_item{
+	position:relative;
+	width:100%;
+	height:60px;
+	background:#212121;
+	/*border: 1px solid;*/
+	/*border-top-color: #333333;*/
+	/*border-left-color: #333333;*/
+	/*border-bottom-color: #000000;*/
+	/*border-right-color: #000000;*/
+    color: #ffffff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+/*item left container with thumbnail_image*/
+.vp_itemLeft{
+	position: absolute;
+    width:60px;
+    height: 50px;
+    z-index: 100;
+}
+/*item right container with title and description*/
+.vp_itemRight{
+    position: absolute;
+    right: 0px;
+    left: 70px;
+    top: 5px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.vp_title{
+    width: 100%;
+    font-size: 13px;
+	font-weight:bold;
+    font-size: 11px;
+    color: #fff;
+    display:none;
+}
+.vp_description{
+    font-size: 10px;
+    color: #e4e4e4;
+    width: 100%;
+    font-size: 11px;
+    padding: 2px 0px 5px 0px;
+    display:none;
+}
+.vp_thumbnail_image{
+	position:absolute;
+    height: 100%;
+    margin: 5px 5px 5px 5px;
+}
+.vp_item:hover{
+	width:100%;
+	/*height:60;*/
+	/*background: #2f2f2f;*/
+	/*border: 1px solid #2f2f2f;*/
+	/*border-top-color: #2f2f2f;*/
+	/*border-left-color: #2f2f2f;*/
+	/*border-bottom-color: #35b9ff;*/
+    box-shadow: 70px 0px 0px 0px rgb(46, 236, 122) inset;
+}
+.vp_itemSelected{
+    position:absolute;
+
+    width:100%;
+    height:60px;
+    box-shadow: 70px 0px 0px 0px rgb(46, 236, 122) inset;
+    /*background: #2f2f2f;*/
+    /*border: 1px solid #2f2f2f;*/
+    /*border-top-color: #2f2f2f;*/
+    /*border-left-color: #2f2f2f;*/
+    /*border-bottom-color: #2f2f2f;*/
+}
+.vp_itemUnselected{
+    position:absolute;
+
+    width:100%;
+    height:60px;
+    /*background: #aaaaaa;*/
+    /*border: 1px solid #aaaaaa;*/
+    /*border-top-color: #aaaaaa;*/
+    /*border-left-color: #aaaaaa;*/
+    /*border-bottom-color: #aaaaaa;*/
+    /*opacity:0;*/
+}
+
+
+
+.vp_myScrollbarV {
+    position:absolute;
+    z-index:100;
+    width:1px;bottom:0px;top:0px;right:2px;
+}
+.vp_myScrollbarV > div {
+    position:absolute;
+    z-index:100;
+    width:100%;
+
+    background: rgb(46, 236, 122);
+}
+
+
+
+.vp_item{
+	cursor:pointer;
+}
+

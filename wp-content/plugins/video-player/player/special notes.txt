@@ -1,0 +1,12 @@
+* "player" folder containes only jQuery version of the Video Player
+
+* purpose of "player" folder is if you use "embed code" of your wordpress player
+
+* you can use these files (deploy folder) to insert player into regular HTML page
+
+
+
+
+ 
+
+
